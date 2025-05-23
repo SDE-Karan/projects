@@ -1,0 +1,40 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#main{
+    height: 100vh;
+    width: 100vw;
+    background-color: #131313;
+    position: relative;
+}
+.elem{
+    height: 120px;
+    width: 100%;
+    border-bottom:2px solid #fff;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    position: relative;
+}
+.elem h1{
+    font-size: 4rem;
+    margin-left: 20px;
+    
+}
+
+.elem img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 50%;
+    position: absolute;
+    transition: all linear 0.1s;
+    opacity: 0;
+    mix-blend-mode: difference;
+    z-index: 2;
+}
